@@ -35,7 +35,7 @@ DB_DATABASE=homestead // your database name
 DB_USERNAME=homestead // your database user name 
 DB_PASSWORD=secret // your database password 
 ```
-### For user registration and reset password mail
+### For user registration and reset password mailing system
 
 ```
 MAIL_DRIVER=smtp // change it as your desire MAIL DRIVER
