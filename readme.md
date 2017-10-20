@@ -55,7 +55,10 @@ php artisan migrate
 php artisan db:seed
 ```
 
-now run project.
+run project.
+
+Email: admin@example.com
+Password: 123456
 
 ### Happy coding
 
