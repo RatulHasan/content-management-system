@@ -111,6 +111,7 @@ class DatabaseSeeder extends Seeder
             'comment_content' => 'This is first comment',
             'comment_approved' => 'approved',
             'comment_agent' => 'none',
+            'created_at' => '2017-10-21',
         ]);
 
         //categories
