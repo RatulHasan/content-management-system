@@ -58,6 +58,7 @@ php artisan db:seed
 run project.
 
 Email: ```admin@example.com```
+
 Password: ```123456```
 
 ### Happy coding
