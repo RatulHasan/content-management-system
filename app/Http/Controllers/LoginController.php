@@ -141,9 +141,9 @@ class LoginController extends Controller
 
         if (DB::table('users')->insert($data)) {
             $request->session()->flash('message.content', '<span class="text-success"><strong>Success!</strong> confirmation email sent.</span> ');
-//SEND MAIL
+			//SEND MAIL
             \Mail::send(new Registration());
-//SEND MAIL
+			//SEND MAIL
 
             return redirect('/admin/login');
         } else {
