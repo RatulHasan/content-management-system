@@ -27,22 +27,15 @@ Here is the full installation command -
 composer create-project ratulhasan/laravel-cms
 ```
 
-Open your terminal or cmd and run 
 
-```
-compposer install
-```
-```
-php artisan key:generate
-```
-
-Now rename .env.example to .env and change this options bellow within your .env,
+Now Change this options bellow within your .env,
 
 ```
 DB_DATABASE=homestead // your database name 
 DB_USERNAME=homestead // your database user name 
 DB_PASSWORD=secret // your database password 
 ```
+### For user registration and reset password mail
 
 ```
 MAIL_DRIVER=smtp // change it as your desire MAIL DRIVER
