@@ -67,6 +67,22 @@ just run this command from outside your project root directory to permit read an
 ```
 sudo chmod -R 777 [directory_name]
 ```
+### For enable .htaccess
+
+```
+sudo gedit /etc/apache2/apache2.conf
+```
+Then find the line where there is
+
+<Directory /var/www/>
+     Options Indexes FollowSymLinks
+     AllowOverride None
+     Require all granted
+</Directory>
+replace "None" with "All"
+
+AllowOverride All
+
 ### Admin panel
 
 Admin url: ``` project/root/admin/login ```
