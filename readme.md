@@ -62,10 +62,10 @@ The stream or file "/var/www/html/laravel-cms/storage/logs/laravel.log" could no
 
 if see this kind of error 
 
-just run this command from your project root directory
+just run this command from outside your project root directory to permit read and write
 
 ```
-sudo chmod -R 777 storage
+sudo chmod -R 777 [directory_name]
 ```
 ### Admin panel
 
