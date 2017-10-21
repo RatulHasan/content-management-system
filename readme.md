@@ -69,6 +69,8 @@ sudo chmod -R 777 [directory_name]
 ```
 ### Admin panel
 
+Admin url: ``` project/root/admin/login ```
+
 Email: ```admin@example.com```
 
 Password: ```123456```
