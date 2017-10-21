@@ -75,10 +75,15 @@ sudo gedit /etc/apache2/apache2.conf
 Then find the line where there is
 
 <Directory /var/www/>
+
      Options Indexes FollowSymLinks
+     
      AllowOverride None
+     
      Require all granted
+     
 </Directory>
+
 replace "None" with "All"
 
 AllowOverride All
