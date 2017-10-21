@@ -69,7 +69,7 @@
                         </td>
                         <td>{{ $posts->post_category }}</td>
                         <td>
-                            <?php $tag='';?>
+                            <?php $tag=array();?>
                             @foreach((array)unserialize($posts->post_tags) as $value)
                                 <?php $tag[]=$value;?>
                             @endforeach
