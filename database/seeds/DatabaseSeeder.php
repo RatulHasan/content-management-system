@@ -20,6 +20,7 @@ class DatabaseSeeder extends Seeder
             'user_role' => '1',
             'password' => md5('123456'),
             'status' => 'active',
+            'created_at' => date("Y-m-d H:i:s"),
         ]);
 
 
@@ -63,6 +64,7 @@ class DatabaseSeeder extends Seeder
             'is_menu_show' => 'yes',
             'menu_order' => '1',
             'post_type' => 'home',
+            'created_at' => date("Y-m-d H:i:s"),
         ]);
 
         DB::table('posts')->insert([
@@ -76,6 +78,7 @@ class DatabaseSeeder extends Seeder
             'is_menu_show' => 'yes',
             'menu_order' => '2',
             'post_type' => 'blog',
+            'created_at' => date("Y-m-d H:i:s"),
         ]);
 
         DB::table('posts')->insert([
@@ -91,6 +94,7 @@ class DatabaseSeeder extends Seeder
             'post_type' => 'post',
             'post_category' => 'Unrecognized',
             'comment_count' => '1',
+            'created_at' => date("Y-m-d H:i:s"),
         ]);
 
         //postmeta
@@ -111,7 +115,7 @@ class DatabaseSeeder extends Seeder
             'comment_content' => 'This is first comment',
             'comment_approved' => 'approved',
             'comment_agent' => 'none',
-            'created_at' => '2017-10-21',
+            'created_at' => date("Y-m-d H:i:s"),
         ]);
 
         //categories
