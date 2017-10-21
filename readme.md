@@ -57,6 +57,18 @@ php artisan db:seed
 
 run project.
 
+### For Linux user 
+The stream or file "/var/www/html/laravel-cms/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied
+
+if see this kind of error 
+
+just run this command from your project root directory
+
+```
+sudo chmod -R 777 storage
+```
+### Admin panel
+
 Email: ```admin@example.com```
 
 Password: ```123456```
