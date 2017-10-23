@@ -30,7 +30,7 @@ composer create-project ratulhasan/laravel-cms:dev-master
 
 Now Change this options bellow within your .env,
 
-To remane .env.example, run 
+To rename .env.example, run 
 ```
 php -r "copy('.env.example', '.env');"
 ```
