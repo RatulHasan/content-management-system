@@ -30,6 +30,11 @@ composer create-project ratulhasan/laravel-cms:dev-master
 
 Now Change this options bellow within your .env,
 
+To remane .env.example, run 
+```
+php -r "copy('.env.example', '.env');"
+```
+
 ```
 DB_DATABASE=homestead // your database name 
 DB_USERNAME=homestead // your database user name 
@@ -46,6 +51,9 @@ MAIL_PASSWORD=null // change it as your desire MAIL PASSWORD
 ```
 
 Now run 
+```
+php artisan key:generate
+```
 
 ```
 php artisan migrate
