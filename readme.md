@@ -24,7 +24,7 @@ Run create-project command with composer to install this project.
 Here is the full installation command -
 
 ```
-composer create-project ratulhasan/laravel-cms
+composer create-project ratulhasan/laravel-cms:dev-master
 ```
 
 
