@@ -110,6 +110,14 @@ Password: ```123456```
 
 **<a href='https://besofty.com' target='_blank'>Ratul Hasan</a>** | **<a href='mailto:ratuljh@gmail.com'>Email</a>**
 
+
+### Donate
+If you find this project useful, you can buy author a glass of juice :tropical_drink:
+
+[Buy me a coffee](https://www.buymeacoffee.com/ratulhasan)
+
+<a href="https://www.buymeacoffee.com/ratulhasan" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
